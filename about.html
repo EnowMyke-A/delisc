@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delisc</title>
+
+    <!--page favicon-->
+    <link rel="image" href="./assets/.favicon.svg">
+
+    <!--main stylesheet-->
+    <link rel="stylesheet" href="./assets/style.css">
+
+    <!--main script-->
+    <script src="./assets/script.js"></script>
+
+    <!--Font awesome style inclusion-->
+    <link rel="stylesheet" href="./assets/fontawesome/css/all.min.css">
+
+    <!--aos style-->
+    <link rel="stylesheet" href="./assets/aos-master/aos-master/dist/aos.css">
+    
+    <!--aos script-->
+    <script src="./assets/aos-master/aos-master/dist/aos.js"></script>
+
+    <!--Font awesome script inclusion-->
+    <script src="./assets/fontawesome/js/all.min.js"></script>
+
+    <!--fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alex+Brush&family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <!--navigation-->
+    <nav class="nav-bar" id="navigation">
+        <ul class="logo">
+            <li class="main_logo"><a href="./index.html">Delisc</a></li>
+        </ul>
+        <ul class="nav-tab">
+            <li class="nav-item"><a href="./menu.html"><span class="label">Menu</span><i class="fas fa-hamburger"></i></a><button><i class="fas fa-caret-down"></i></button><span class="badge" id="sm-cart">0</span></li>
+            <li class="nav-item"><a href="./about.html"><span class="label">About us</span><i class="fas fa-book"></i></a></li>
+            <li class="nav-item cart"><a href="#"><i class="fas fa-shopping-cart"></i></a><span class="badge cart-badge" id="cart">0</span></li>
+            <li class="nav-item cart"><a href="#"><i class="fas fa-heart"></i></a><span class="badge cart-badge" id="whitelist">0</span></li>
+            <li class="nav-item"><button class=" color-mode" onclick="darkTheme()"><i class="fas fa-moon color"></i></button></li>
+        </ul>
+    </nav>
+
+    <a href="#top" class="top" data-aos="fade-up" data-aos-duration="1500"><i class="fas fa-arrow-up"></i><br>top</a>
+
+    <div class="about" id="top">
+        <div class="first-block" data-aos="fade-up" data-aos-duration="1500">
+            <img src="./assets/img/pngwing.com.png" alt="chef">
+            <div class="about-caption">
+                <h3>Learn about us</h3>
+                <hr class="underline" data-aos="zoom-in" data-aos-duration="1500">
+                <p class="newsletter-caption">
+                    At Delisc we deliver tastey food and delicacies from our heart to your stomarch. We are a 5star resturant located in the economic capital of Douala in Cameroon</p>
+                </div>
+        </div>
+        <div class="first-block second" data-aos="fade-up" data-aos-duration="1500">
+            <div class="about-caption">
+                <h3>Our foods</h3>
+                <hr class="underline" data-aos="zoom-in" data-aos-duration="1500">
+                <p class="newsletter-caption">
+                    We believe the easiest way to a person's heart is through the stomarch reason why we cook up tastey food and delicacies for you</p>
+                </div>
+            <img src="./assets/img/pngwing.com (1).png" alt="chef">
+        </div>
+
+    <div class="supported-logo" data-aos="zoom-in" data-aos-duration="1500">
+        <img src="./assets/img/mcdonalds-dark.png" alt="mcd">
+        <img src="./assets/img/KFC_logo.png" alt="mcd">
+        <img src="./assets/img/burger-king-logo.png" alt="mcd">
+        <img src="./assets/img/pizza-hut-brands-png-logo-8.png" alt="mcd">
+    </div>
+
+    <!--newsletter-->
+    <div class="Newsletter" id="Newsletter" data-aos="fade-up" data-aos-duration="1500">
+        <h3 class="newsletter-header">Newsletter</h3>
+        <hr class="underline" data-aos="zoom-in" data-aos-duration="1500">
+        <p class="newsletter-caption">Subscribe to our newsletter and get updates on every new dish available</p>
+        <form action="" class="newsletter-form">
+            <input type="email" name="email" class="email-input" placeholder="Enter email here">
+            <input type="submit" class="Submit-button">
+        </form>
+    </div>
+
+    </div>
+
+    <footer class="footer">
+        <ul>
+         <li><i class="fas fa-envelope"></i>&nbsp; delisc237@delisc.com</li>
+         <li><i class="fas fa-phone"></i>&nbsp; +23779281011</li>
+         <li><i class="fas fa-location"></i>&nbsp; Bonaberi, Douala</li>
+         <li>
+             <a href="http://www.facebook.com"><i class="fab fa-facebook"></i></a>&nbsp;
+             <a href="http://www.twitter.com"><i class="fab fa-twitter"></i></a>&nbsp;
+             <a href="http://www.instagram.com"><i class="fab fa-instagram"></i></a>&nbsp;
+             <a href="http://www.linkedin.com"><i class="fab fa-linkedin"></i></a>
+         </li>
+         <li>&copy;delisc.2023</li>
+        </ul> 
+ 
+        <ul>
+         <li><a href="#">Terms and services</a></li>
+         <li><a href="#">Booking a table</a></li>
+         <li><a href="#">Talk to assistant</a></li>
+         <li><a href="#">Help</a></li>
+         <li>Made by EnowMyke-A</li>
+        </ul>
+     </footer>
+
+     <script>AOS.init();</script>
+</body>
+</html>

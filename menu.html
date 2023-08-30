@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delisc</title>
+
+    <!--page favicon-->
+    <link rel="image" href="./assets/.favicon.svg">
+
+    <!--main stylesheet-->
+    <link rel="stylesheet" href="./assets/style.css">
+
+    <!--main script-->
+    <script src="./assets/script.js"></script>
+
+    <!--Font awesome style inclusion-->
+    <link rel="stylesheet" href="./assets/fontawesome/css/all.min.css">
+
+    <!--Font awesome script inclusion-->
+    <script src="./assets/fontawesome/js/all.min.js"></script>
+
+    <!--aos style-->
+    <link rel="stylesheet" href="./assets/aos-master/aos-master/dist/aos.css">
+    
+    <!--aos script-->
+    <script src="./assets/aos-master/aos-master/dist/aos.js"></script>
+
+
+    <!--fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alex+Brush&family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <!--navigation-->
+    <nav class="nav-bar" id="navigation">
+        <ul class="logo">
+            <li class="main_logo"><a href="./index.html">Delisc</a></li>
+        </ul>
+        <ul class="nav-tab">
+            <li class="nav-item"><a href="./menu.html"><span class="label">Menu</span><i class="fas fa-hamburger"></i></a><button><i class="fas fa-caret-down"></i></button><span class="badge" id="sm-cart">0</span></li>
+            <li class="nav-item"><a href="./about.html"><span class="label">About us</span><i class="fas fa-book"></i></a></li>
+            <li class="nav-item cart"><a href="#"><i class="fas fa-shopping-cart"></i></a><span class="badge cart-badge" id="cart">0</span></li>
+            <li class="nav-item cart"><a href="#"><i class="fas fa-heart"></i></a><span class="badge cart-badge" id="whitelist">0</span></li>
+            <li class="nav-item"><button class=" color-mode" onclick="darkTheme()"><i class="fas fa-moon color"></i></button></li>
+        </ul>
+    </nav>
+
+    <a href="#top" class="top" data-aos="fade-up" data-aos-duration="1500"><i class="fas fa-arrow-up"></i><br>top</a>
+    
+    <form action="" class="search">
+        <input type="search" class="search-input" placeholder="search">
+        <button type="submit" class="search-button"><i class="fas fa-search"></i></button>
+    </form>
+    
+    <div class="menu-body" id="top">
+        <span class="menu-heading">Our Menu</span>
+        <hr class="underline underline-menu" data-aos="zoom-in" data-aos-duration="1500">
+        <div class="food-block">
+            <div class="food" data-aos="fade-up" data-aos-duration="1500">
+                <div class="image-container">
+                    <img class="food-image" src="./assets/img/Hamburger.jpg" alt="food">
+                    <i class="fas fa-heart icon"></i>
+                    <i class="fas fa-shopping-cart icon"></i>
+                </div>
+                <div class="details">
+                    <span class="food-name">Hamburger</span>
+                <span class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half"></i>
+                </span>
+                <span class="price"><i class="fas fa-dollar"></i>10</span>
+                </div>   
+            </div>
+    
+            <div class="food" data-aos="fade-up" data-aos-duration="1500">
+                <div class="image-container">
+                    <img class="food-image" src="./assets/img/Chicken.webp" alt="food">
+                    <i class="fas fa-heart icon"></i>
+                    <i class="fas fa-shopping-cart icon"></i>
+                </div>
+                <div class="details">
+                    <span class="food-name">Chicken</span>
+                <span class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </span>
+                <span class="price"><i class="fas fa-dollar"></i>25</span>
+                </div>
+                
+            </div>
+    
+            <div class="food" data-aos="fade-up" data-aos-duration="1500">
+                <div class="image-container">
+                    <img class="food-image" src="./assets/img/FrenchFries.webp" alt="food">
+                    <i class="fas fa-heart icon"></i>
+                    <i class="fas fa-shopping-cart icon"></i>
+                </div>
+                <div class="details">
+                    <span class="food-name">French Fries</span>
+                <span class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </span>
+                <span class="price"><i class="fas fa-dollar"></i>12</span>
+                </div>   
+            </div>
+    
+            <div class="food" data-aos="fade-up" data-aos-duration="1500">
+                <div class="image-container">
+                    <img class="food-image" src="./assets/img/Spaghetti-Bolognese.webp" alt="food">
+                    <i class="fas fa-heart icon"></i>
+                    <i class="fas fa-shopping-cart icon"></i>
+                </div>
+                <div class="details">
+                    <span class="food-name">Spaghetti</span>
+                <span class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </span>
+                <span class="price"><i class="fas fa-dollar"></i>15</span>
+                </div>  
+            </div>
+    
+            <div class="food" data-aos="fade-up" data-aos-duration="1500">
+                <div class="image-container">
+                    <img class="food-image" src="./assets/img/Pizza.webp" alt="food">
+                    <i class="fas fa-heart icon"></i>
+                    <i class="fas fa-shopping-cart icon"></i>
+                </div>
+                <div class="details">
+                    <span class="food-name">Pizza</span>
+                <span class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </span>
+                <span class="price"><i class="fas fa-dollar"></i>20</span>
+                </div>   
+            </div>
+    
+            <div class="food" data-aos="fade-up" data-aos-duration="1500">
+                <div class="image-container">
+                    <img class="food-image" src="./assets/img/burrito.webp" alt="food">
+                    <i class="fas fa-heart icon"></i>
+                    <i class="fas fa-shopping-cart icon"></i>
+                </div>
+                <div class="details">
+                    <span class="food-name">Burrito</span>
+                <span class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </span>
+                <span class="price"><i class="fas fa-dollar"></i>30</span>
+                </div>
+                
+            </div>
+
+            <div class="food" data-aos="fade-up" data-aos-duration="1500">
+                <div class="image-container">
+                    <img class="food-image" src="./assets/img/Ham.jpg" alt="food">
+                    <i class="fas fa-heart icon"></i>
+                    <i class="fas fa-shopping-cart icon"></i>
+                </div>
+                <div class="details">
+                    <span class="food-name">Grilled Ham</span>
+                <span class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </span>
+                <span class="price"><i class="fas fa-dollar"></i>50</span>
+                </div>
+                
+            </div>
+
+            <div class="food" data-aos="fade-up" data-aos-duration="1500">
+                <div class="image-container">
+                    <img class="food-image" src="./assets/img/Hot-Dogs.jpg" alt="food">
+                    <i class="fas fa-heart icon"></i>
+                    <i class="fas fa-shopping-cart icon"></i>
+                </div>
+                <div class="details">
+                    <span class="food-name">Hot Dogs</span>
+                <span class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </span>
+                <span class="price"><i class="fas fa-dollar"></i>10</span>
+                </div>
+                
+            </div>
+
+            <div class="food" data-aos="fade-up" data-aos-duration="1500">
+                <div class="image-container">
+                    <img class="food-image" src="./assets/img/Fish.jpg" alt="food">
+                    <i class="fas fa-heart icon"></i>
+                    <i class="fas fa-shopping-cart icon"></i>
+                </div>
+                <div class="details">
+                    <span class="food-name">Grilled Fish</span>
+                <span class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </span>
+                <span class="price"><i class="fas fa-dollar"></i>75</span>
+                </div>
+                
+            </div>
+
+            <div class="food" data-aos="fade-up" data-aos-duration="1500">
+                <div class="image-container">
+                    <img class="food-image" src="./assets/img/chilli-dog.jpg" alt="food">
+                    <i class="fas fa-heart icon"></i>
+                    <i class="fas fa-shopping-cart icon"></i>
+                </div>
+                <div class="details">
+                    <span class="food-name">Chilli Dogs</span>
+                <span class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </span>
+                <span class="price"><i class="fas fa-dollar"></i>13</span>
+                </div>
+                
+            </div>
+
+            <div class="food" data-aos="fade-up" data-aos-duration="1500">
+                <div class="image-container">
+                    <img class="food-image" src="./assets/img/sandwich.png" alt="food">
+                    <i class="fas fa-heart icon"></i>
+                    <i class="fas fa-shopping-cart icon"></i>
+                </div>
+                <div class="details">
+                    <span class="food-name">Sandwich</span>
+                <span class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </span>
+                <span class="price"><i class="fas fa-dollar"></i>17</span>
+                </div>
+                
+            </div>
+
+            <div class="food" data-aos="fade-up" data-aos-duration="1500">
+                <div class="image-container">
+                    <img class="food-image" src="./assets/img/Cup-Of-Creamy-Coffee-500x375.png" alt="food">
+                    <i class="fas fa-heart icon"></i>
+                    <i class="fas fa-shopping-cart icon"></i>
+                </div>
+                <div class="details">
+                    <span class="food-name">Coffee</span>
+                <span class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </span>
+                <span class="price"><i class="fas fa-dollar"></i>5</span>
+                </div>
+                
+            </div>
+            
+        </div>
+    
+        <!--newsletter-->
+        <div class="Newsletter" id="Newsletter">
+            <h3 class="newsletter-header">Newsletter</h3>
+            <hr class="underline">
+            <p class="newsletter-caption">Subscribe to our newsletter and get updates on every new dish available</p>
+            <form action="" class="newsletter-form">
+                <input type="email" name="emial" class="email-input" placeholder="Enter email here">
+                <input type="submit" class="Submit-button">
+            </form>
+        </div>
+    
+        <footer class="footer">
+           <ul>
+            <li><i class="fas fa-envelope"></i>&nbsp; delisc237@delisc.com</li>
+            <li><i class="fas fa-phone"></i>&nbsp; +23779281011</li>
+            <li><i class="fas fa-location"></i>&nbsp; Bonaberi, Douala</li>
+            <li>
+                <a href="http://www.facebook.com"><i class="fab fa-facebook"></i></a>&nbsp;
+                <a href="http://www.twitter.com"><i class="fab fa-twitter"></i></a>&nbsp;
+                <a href="http://www.instagram.com"><i class="fab fa-instagram"></i></a>&nbsp;
+                <a href="http://www.linkedin.com"><i class="fab fa-linkedin"></i></a>
+            </li>
+            <li>&copy;delisc.2023</li>
+           </ul> 
+    
+           <ul>
+            <li><a href="#">Terms and services</a></li>
+            <li><a href="#">Booking a table</a></li>
+            <li><a href="#">Talk to assistant</a></li>
+            <li><a href="#">Help</a></li>
+            <li>Made by EnowMyke-A</li>
+           </ul>
+        </footer>
+    </div>
+</body>
+
+ <script>AOS.init();</script>
+</html>
